@@ -1,0 +1,22 @@
+README.md
+  s_30b8c8840cde60::t_e82f98c67536af 1,3-6,10-81,83-84,86,88,90-91
+LICENSE
+  s_30b8c8840cde60::t_d8e2ce38c33e71 1-2,4-25
+  s_30b8c8840cde60::t_e9d7ffc4073a07 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "a960c6f848c2750c28bf2482eb634e685cd51374",
+  "prompts": {},
+  "sessions": {
+    "s_30b8c8840cde60": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "378e9d15-79f0-4ce3-a591-7362dc6ea2b3",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Stigriosan <ai@riosan.com>"
+    }
+  }
+}
