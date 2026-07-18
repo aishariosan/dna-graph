@@ -4,8 +4,7 @@
 
 > Author: **Stig**
 > Русская версия: [README.ru.md](README.ru.md)
-> First (condensed) version: [lib/README.md](lib/README.md) · [lib/README.en.md](lib/README.en.md)
-> DOI: [10.5281/zenodo.21434000](https://doi.org/10.5281/zenodo.21434000)
+> DOI: [10.5281/zenodo.21434467](https://doi.org/10.5281/zenodo.21434467) (all versions: [10.5281/zenodo.21433999](https://doi.org/10.5281/zenodo.21433999))
 
 ---
 

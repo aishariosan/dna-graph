@@ -4,8 +4,7 @@
 
 > Автор: **Stig**
 > English (primary) version: [README.md](README.md)
-> Первая (сжатая) версия: [lib/README.md](lib/README.md) · [lib/README.en.md](lib/README.en.md)
-> DOI: [10.5281/zenodo.21434000](https://doi.org/10.5281/zenodo.21434000)
+> DOI: [10.5281/zenodo.21434467](https://doi.org/10.5281/zenodo.21434467) (все версии: [10.5281/zenodo.21433999](https://doi.org/10.5281/zenodo.21433999))
 
 ---
 
