@@ -2,6 +2,7 @@
 
 > Рабочее название. Концепт-документ, зафиксированный для публикации.
 > Автор: **Stigriosan**
+> English version: [README.en.md](README.en.md)
 
 ---
 
