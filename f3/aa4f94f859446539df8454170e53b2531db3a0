@@ -1,0 +1,26 @@
+README.md
+  s_30b8c8840cde60::t_952a6710ceddb0 4
+  s_30b8c8840cde60::t_c5ae0a61293898 1,3,5-7,12-189,193,195-196,198-199,201,203,205-206
+.gitignore
+  s_30b8c8840cde60::t_f2a926be93ae4b 3
+README.ru.md
+  s_30b8c8840cde60::t_92a5fc723e7df4 1-185
+lib/README.md
+  s_30b8c8840cde60::t_246259e7abba1b 1-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "f3aa4f94f859446539df8454170e53b2531db3a0",
+  "prompts": {},
+  "sessions": {
+    "s_30b8c8840cde60": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "378e9d15-79f0-4ce3-a591-7362dc6ea2b3",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Stigriosan <ai@riosan.com>"
+    }
+  }
+}
