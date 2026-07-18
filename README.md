@@ -3,6 +3,7 @@
 > Рабочее название. Концепт-документ, зафиксированный для публикации.
 > Автор: **Stigriosan**
 > English version: [README.en.md](README.en.md)
+> DOI: [10.5281/zenodo.21434000](https://doi.org/10.5281/zenodo.21434000)
 
 ---
 

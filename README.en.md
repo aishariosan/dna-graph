@@ -3,6 +3,7 @@
 > Working title. Concept document fixed for publication.
 > Author: **Stigriosan**
 > Русская версия: [README.md](README.md)
+> DOI: [10.5281/zenodo.21434000](https://doi.org/10.5281/zenodo.21434000)
 
 ---
 
