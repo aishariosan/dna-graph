@@ -1,0 +1,19 @@
+.gitignore
+  s_30b8c8840cde60::t_ab1c67f87beee8 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "edf4858b3ffe492f303580316ae8cedd4ebbff31",
+  "prompts": {},
+  "sessions": {
+    "s_30b8c8840cde60": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "378e9d15-79f0-4ce3-a591-7362dc6ea2b3",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Stigriosan <ai@riosan.com>"
+    }
+  }
+}
