@@ -1,205 +1,118 @@
-# DNA-graph: A Universal Method of Structural Digitization
+# Universal Structural Digitization of Branchings
 
-**Version 2 — expanded edition.**
+**Version 3.**
 
 > Author: **Stig**
 > Русская версия: [README.ru.md](README.ru.md)
-> DOI: [10.5281/zenodo.21434467](https://doi.org/10.5281/zenodo.21434467) (all versions: [10.5281/zenodo.21433999](https://doi.org/10.5281/zenodo.21433999))
+> DOI: [10.5281/zenodo.21436211](https://doi.org/10.5281/zenodo.21436211) (all versions: [10.5281/zenodo.21433999](https://doi.org/10.5281/zenodo.21433999))
+> Updated: 2026-07-19 05:41
 
 ---
 
-## 1. Statement of the problem
+### graph-units → chain (DNA / RNA) → cell → organ → life
 
-A universal method for formalizing an arbitrary object — a hypothesis, a process,
-a plan, a diagram, a function — into a structural **branching model**: a directed
-graph with typed edges.
+## 1. What it is
 
-The precise term is not "digitization" but **structural formalization** (model
-extraction): hypotheses and plans are already symbolic. The pipeline:
-representation (object → elements + relations) → structure → diagnostics.
-Universality is achieved by pushing the differences between object classes into
-**edge typing**: the pipeline is one, only the vocabulary of relations changes.
-The universal intermediate form is the triad "elements + typed relations + order";
-causality, temporality, and hierarchy are not different structures but different
-edge labels on one typed directed graph.
+A universal method: any object — hypothesis, function, process, plan, scheme — is turned into a branching graph plus the dynamics running on it. One method for all classes; class differences are pushed into relation typing. "Digitization" here is not conversion to numbers but extraction of the hidden graph and its work.
 
-Fractals, the power law, and symmetry are not methods of model generation but
-**properties** of an already built model, each with a rigorous test: cycles — via
-condensation of strongly connected components; symmetry — the automorphism group;
-fractality — box-covering; the power law — only by a rigorous statistical test
-(Clauset–Shalizi–Newman), not by visual fitting.
+## 2. Core principle: folding, not assembly
 
-## 2. The tomographic setting: reconstruction of a master object
+The method runs **top-down**. Structure is not built from blocks — it is folded down to an irreducible core:
 
-The direction of the pipeline is not the induction "data → model" but
-**reconstruction**: there exists a master object M, and the observed branchings
-are its slices-projections π₁(M), π₂(M)… The problem is inverse, as in tomography.
+```
+object → project digraph into graph → strip symmetry → strip fractal → CORE
+```
 
-Consequences. Verification means checking whether the projections glue together
-as views of one M (sheaf gluing; topological data analysis takes its proper place
-here — not extraction, but gluing). Invariants are properties of M: a cycle may
-manifest itself only upon gluing the slices. M is fundamentally unattainable in
-full: the working model = an approximation of M up to the kernel of the
-projections, with **explicit blind zones**.
+The core is the point where reduction halts. It compresses no further.
 
-## 3. Stratification of the slices
+## 3. graph-unit (core)
 
-Five slices of M, isomorphic to a well-known decomposition: (1) the statics of
-branching — topology; (2) internal dynamics — flows ON the graph; (3) external
-flows — the boundary of an open system; (4) the history of evolution — the
-dynamics OF the graph itself; (5) the senior working model — M as a multilayer
-temporal network.
+The core (graph-unit) is the base building unit, an analog of a DNA base (biology has 4 bases).
 
-The slices are not of equal rank: dynamics does not exist without statics — the
-diagram is layered, statics is the base. The "internal/external" boundary is a
-modeling choice, not a given: an explicit parameter tested by an agent. A
-contracting cycle is the mechanism of crystallization: an attractor of the
-dynamics freezes into structure, whence the self-consistency test — the skeleton
-(1) is derivable as the set of attractors of the dynamics (2).
+**Definition by negation:** an asymmetric spatial figure with no symmetry and no fractality one level below. The logic is exact — symmetry and self-similarity are compressibility; squeeze out everything compressible and an incompressible residue remains. This is algorithmic-information logic: structure = redundancy, core = pure information; the incompressible looks asymmetric by nature.
 
-## 4. Unfolding: dynamics is the statics of a larger graph
+Cores are **few** — the alphabet is finite. Hypothesis: their count depends on the spatial dimension of the figure — **2, 3, 4** (4 = depth, a fourth axis for 3D; ℝ⁴ is mathematically legitimate though not visualizable). The library of cores is replenished in the course of working by the protocol.
 
-Any process is rendered static by an unfolding: a node = (element × tick of a
-partial order), a flow = a directed edge between temporal copies. "Time" is any
-partial order: execution for a process, logical entailment for a hypothesis,
-priority for a plan. The unfolding is universal for non-physical objects as well.
+*Status:* the graph-unit itself is still a hypothesis — defined as a computational process that manifests during reduction, not as a pre-given symbol.
 
-The price of the unfolding is infinity; symmetry pays that price. An infinite
-unfolding becomes finite statics when there is a symmetry group with a finite
-quotient:
+## 4. Three decoration axes
 
-- shift symmetry → a **cycle** (periodicity);
-- scale symmetry → a **fractal generator + rule** (renormalization group);
-- symbolic dynamics → a **finite generator graph + traversal rule** (chaos).
+The core is form only. A real object dresses the form with three separate axes at assembly:
 
-The upshot: **dynamics = a finite static generator graph + a traversal rule** —
-three regimes of one mechanism. Two dynamics are equivalent if their generators
-are conjugate (shift equivalence). The wave/particle dualism dissolves: the
-particle = a node, the wave = an orbit of the symmetry — two factors of one
-unfolding. The mandatory invariant is the orientation of edges (the arrow of
-time).
+> **object = chain of cores + directions + parallels + strobe(time)**
 
-## 5. Two primitives and the absence of the external
+- **directions** — causality (edge orientation);
+- **parallels** — edge multiplicity;
+- **strobe(time)** — a stroboscope: freezes dynamics into a sequence of static frames.
 
-The scheme compresses to two primitives: the **object** and the **work** — two
-factorizations of one unfolding (structure = the attractors of the dynamics).
-There is no "external" flow: external(k) ≡ internal(k+1) at the boundary of a
-module — it is a higher scale at which the work of the whole becomes a node of
-the level above. Fractality becomes architecture: a self-similar tower of
-(object, work) pairs connected by a scale operator.
+Reduction stripped both time and direction precisely because it stripped *all* decoration to reach the form. Single principle: **alphabet = forms, reality = forms + three decoration axes.**
 
-The criterion for an admissible scale step is **lumpability**: the quotient of
-the dynamics = the dynamics of the quotient; a non-commuting partition "cuts
-through living flesh". The check "resembles the data" is replaced by the check
-"the floors commute". The external does not vanish — it is pushed to the top of
-the tower (a horizon with boundary conditions). The power law acquires
-predictive status: under self-similarity the distribution of module sizes is
-bound to be a power law — this is the test of the tower's self-similarity.
+## 5. Chain and branching (genotype / phenotype)
 
-## 6. The DNA-graph: a universal structural alphabet
+A chain of cores (1D) is the **code (genotype)**. Branching is what the code unfolds into (the **phenotype**). As in biology: a 1D sequence of bases → a multidimensional folded structure.
 
-**The DNA-graph is a new notion, not biological DNA.** It is a universal alphabet
-of structural primitives from which all real structures are assembled by
-composition.
+Here is the source of compression and FLOPs economy: a tiny alphabet + long chains = unbounded structures. Properties are computed once per core and reused. Nature already proved it — 4 bases generate all of life.
 
-The differentiation of structures (the notional "cell" and "organ" of a project)
-is **compositional, not expressional**: one alphabet, different words. The
-question "if the DNA is one, where does the difference between organs come from"
-does not arise — the difference is in the assembly, not in the reading of the
-code.
+## 6. DNA and RNA
 
-Mathematically, the alphabet is the set of graphs **indecomposable** with respect
-to a chosen composition operation ⊗. The exact analogue of the mechanism is
-voltage graphs (Gross–Tucker): a small base + group labels generate a covering of
-arbitrary size; the storage key is the canonical form. The canonicity condition
-(the "halls of god" — a single foundation rather than one basis among many): ⊗
-admits a **unique** decomposition into primes — then the alphabet is not assigned
-but **discovered**, it is forced by the operation. For the Cartesian product of
-graphs uniqueness is proven (Sabidussi–Vizing); the candidate closest to the
-"cell → organ" nesting is **modular composition** (substitution of a subgraph
-into a vertex) with its unique canonical modular decomposition tree: the
-DNA-graph = the primitive leaves of that tree.
+The same cores build both carriers:
 
-The saving of computation (FLOPs) comes from three sources: invariants (spectrum,
-automorphism group, homology, attractors) are computed per class rather than per
-instance; symmetry divides the search by a factor of |Aut|; self-similarity
-reuses templates across all scales. The power law predicts where the gain lies:
-the heavy head of a few templates covers the bulk of structures. A caveat:
-orientation breaks the symmetry of the base (Aut of the directed ≤ Aut of the
-undirected) — template invariants are upper bounds flagged "needs check". The
-size of the base graph is bounded from above: large structures are compositions
-of small ones, not new large templates ("codons are few, proteins are many").
+- **DNA = structure** — a figure (static, dim 2/3/4);
+- **RNA = work** — a strobe-sequence of figures.
 
-## 7. The cell: closing the production loop
+This resolves the original thesis "dynamics can be static": each frame is still, motion = the sequence of frames.
 
-The limit of growth of a structural unit is suggested by nature, and it is not
-the molecule but the **cell**. A molecule is held together from outside (by bond
-energy); a cell holds itself from inside — it maintains its own boundary by
-active work. This is operational closure (the autopoiesis of Maturana–Varela; in
-graph terms, Rosen's (M,R)-systems).
+## 7. Levels: DNA → cell → organ → life
 
-Formally: the loop **DNA → work → DNA** is closed — the work produces the object,
-the object carries the work. This loop closes Rosen's regress ("who repairs the
-repairer") in the only possible way: the code encodes the machine that reads the
-code; the base template is self-referential. Consequences: the atom of the base
-is not merely a subgraph but a **fixed point** of the mapping work → structure →
-work (the filter discards stable but dead structures: a crystal is compact but
-does not produce itself); the mutual similarity of object and work ceases to be
-a hypothesis — it is constitutive of the cell. The practical resolution of the
-computational difficulty: a cheap constructor + a strict filter of the living.
+The levels are **genuinely independent** — not a matryoshka. An organ is assembled directly from cores; knowing the cell's structure is not required (direct action). Cell and organ are different types in one library, not nested layers. Principle: **simplicity = health, complexity = disease.**
 
-## 8. Three levels: code, process, field
+- **Cell** — operationally closed: the loop DNA → work → DNA closes onto its own code (resolving the "who repairs the repairer" regress). Distinguishes the living from dead form.
+- **Organ** — a larger self-sufficient unit, assembled by *its own* code, not by gluing cells.
+- **Life / field** — the environment where models interact and are selected.
 
-Three levels of organization are three mathematical regimes, not three sizes:
+## 8. Merge: 1 + 1 = 1
 
-- **DNA-graph** — code: generation and storage (combinatorial group theory);
-- **cell** — process: self-maintenance, the fixed point of the loop (dynamical
-  systems);
-- **life** — field: interaction and selection of models in a shared knowledge
-  base (ecology, game theory on a network of models).
+Merging graphs always yields a **new whole**, not a sum (1+1=1; 1+1+1+2=1). Merge = recombination of chains: two chains produce a new one (a new DNA set), not an end-to-end concatenation. The library is **generative** — new cores surface in the course of work, yet remain few.
 
-The transitions are substantive: DNA → cell = unfolding + animation (most
-unfoldings do not self-maintain); cell → life = opening of the boundary (the
-external of the cell = the internal of the field). Each transition carries its
-own selection criterion: the code unfolds → the cell self-maintains → the model
-survives among others. The method is self-referential: it is itself DNA (the
-method) → cells (the models) → life (the knowledge field).
+## 9. Selectivity
 
-## 9. Verification
+Not everything can be digitized: combinatorics beats FLOPs by a power law. Only what interests the researcher is digitized — a cognition mechanism is built per query. The knowledge field is **lazy**: a model exists only if it was requested. (Uncontrolled growth = disease; selectivity = health.)
 
-The model is verified by an agent not by fitting to data but by internal
-consistency:
+## 10. Verification by agent
 
-1. the orientation of edges is preserved (the arrow of time);
-2. the floors commute — the quotient of the dynamics = the dynamics of the
-   quotient (lumpability);
-3. the skeleton of the statics is derivable as the set of attractors of the
-   dynamics;
-4. the symmetries are stable under bootstrap resampling (persistence);
-5. the distribution of module sizes is a power law (a rigorous test, not a
-   visual one);
-6. the production loop DNA → work → DNA is closed.
+A model is accepted if it passes:
 
-## 10. The open problem
+- orientation preserved (causality intact);
+- levels commute (coarsening is valid);
+- skeleton = attractors of its own work;
+- symmetries stable under resampling (signal, not artifact);
+- part-size distribution is power-law (self-similarity);
+- production loop is closed (living, not a warehouse of forms).
 
-The most fragile point, which must be closed before any code, is **the choice of
-the composition operation ⊗**. Until it is chosen, the canonicity of the single
-alphabet (the "halls of god") is not a theorem but a requirement. The primitives
-are secondary: they follow from the operation.
+## 11. Status of claims
+
+**Solid:** reduction of dynamics to statics (strobe); the three decoration axes; the DNA/RNA split; economy via a small alphabet; TDA / persistent homology as the tool for finding cores (the first tool named in the project turned out to be the tool for the last layer — the circle closed).
+
+**Bet (held consciously):** asymmetric spatial cores are a finite small number, indexed by dimension 2, 3, 4. There is precedent — finite classifications of irreducibles in geometry (regular polytopes: 3D → 5, 4D → 6). But for the *asymmetric* case there is no off-the-shelf classification; this is the author's hypothesis.
+
+**First concrete step** (the philosophy has reached counting): enumerate the asymmetric irreducible figures in 2D / 3D / 4D — run the reduction on many objects, check whether the residues cluster into a short list indexed by dimension. 4D cores are the one place where intuition fails but homology does not.
+
+**Open parameter:** strobe frequency. A wrong rate → aliasing (false motion from correct frames), and the RNA sequence becomes a sampling artifact. The same coin as the resampling-stability test.
 
 ---
 
-## License
+## Glossary
 
-"DNA-graph: A Universal Method of Structural Digitization" © 2026 Stig
-is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+- **Digitization** — extraction of the hidden branching graph and its dynamics.
+- **graph-unit / core** — an irreducible asymmetric spatial figure; the base unit (analog of a DNA base).
+- **Chain** — a 1D sequence of cores; the code (genotype).
+- **Branching** — the phenotype folded from the chain.
+- **DNA / RNA** — structure (figure) / work (strobe-sequence of figures).
+- **Strobe** — stroboscopic sampling of time into static frames.
+- **Three decoration axes** — directions (causality), parallels (multiplicity), strobe (time).
+- **Cell** — an operationally closed unit (loop DNA → work → DNA).
+- **Merge 1+1=1** — recombination of chains into a new whole.
 
-You are free to copy, redistribute, adapt, and use the material for any purpose,
-including commercially, provided you give appropriate credit.
+---
 
-Full license text: <https://creativecommons.org/licenses/by/4.0/>
-
-**Attribution (example):**
-
-> Based on "DNA-graph: A Universal Method of Structural Digitization"
-> © Stig, licensed under CC BY 4.0.
+*This document is a public disclosure of the concept as of 2026. For terms of use, see LICENSE. Revision 0.2 supersedes the earlier bottom-up description (assembly from bricks); the current foundation is top-down folding to cores.*
