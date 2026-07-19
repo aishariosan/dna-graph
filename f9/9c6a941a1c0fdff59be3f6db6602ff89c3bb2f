@@ -1,0 +1,21 @@
+README.ru.md
+  s_f6e20d84d9a777::t_8844e13b37b353 1,3,7-8,12,14-56,58,60-61,63,65,67-116,118
+README.md
+  s_f6e20d84d9a777::t_8844e13b37b353 1,3,7-8,12,14-56,58,60-61,63,65,67-116,118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "f99c6a941a1c0fdff59be3f6db6602ff89c3bb2f",
+  "prompts": {},
+  "sessions": {
+    "s_f6e20d84d9a777": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cf7c80c1-bee8-463a-84f1-4cfe1843fa9f",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Stigriosan <ai@riosan.com>"
+    }
+  }
+}
