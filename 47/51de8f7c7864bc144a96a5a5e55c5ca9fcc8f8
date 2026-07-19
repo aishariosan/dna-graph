@@ -1,0 +1,19 @@
+LICENSE
+  s_f6e20d84d9a777::t_6395bd8f9c443d 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "4751de8f7c7864bc144a96a5a5e55c5ca9fcc8f8",
+  "prompts": {},
+  "sessions": {
+    "s_f6e20d84d9a777": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cf7c80c1-bee8-463a-84f1-4cfe1843fa9f",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Stigriosan <ai@riosan.com>"
+    }
+  }
+}
